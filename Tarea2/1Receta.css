@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 1024px;
+}
+
+.topnav {
+  width: 100%;
+  background-color: AliceBlue;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.receta {
+  width: 80%;
+  hight: 50%;
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.margen {
+  width: 20%;
+  float: left;
+  padding: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+}

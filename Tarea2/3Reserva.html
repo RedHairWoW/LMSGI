@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MI HOTEL Reserva online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3Reserva.css">
+</head>
+<body>
+<div class="header">
+    <h1>MI HOTEL reserva on line</h1>
+</div>
+
+<div class="row">
+    <div class="columna_izquierda">
+        <h2>Complete los datos de la reserva</h2>
+    </div>
+    <div class="columna_derecha">
+        <div class="card">
+            <form>
+                <div>
+                    <table>
+                        <tr>
+                            <th><label for="cnombre">Nombre:</label></th>
+                            <th><input type="text" id="cnombre" name="cnombre" required autofocus size="50"></th>
+                        </tr>
+                        <tr>
+                            <th><label for="capellidos">Apellidos:</label>
+                            </th>
+                            <th><input type="text" id="capellidos" name="capellidos" required size="50"></th>
+                        </tr>
+                        <tr>
+                            <th><label for="ctelefono">Teléfono:</label></th>
+                            <th><input type="tel" id="ctelefono" name="ctelefono" pattern="[0-9]{9}"></th>
+                        </tr>
+                        <tr>
+                            <th><label for="cemail">E-mail:</label>
+                            </th>
+                            <th><input type="email" id="cemail" name="cemail" placeholder="usuario@dominio.com"
+                                       required size="50">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th><label for="cnoches">Número de noches:</label>
+                            </th>
+                            <th><input type="number" id="cnoches" name="cnoches" min="1" max="30" required></th>
+                        </tr>
+                        <tr>
+                            <th><label for="cdesdedia">Entrada el día </label>
+                            </th>
+                            <th><input type="number" id="cdesdedia" name="cdesdedia" min="1" max="31" required>
+                                <label for="cdesdemes"> de </label>
+                                <input type="month" id="cdesdemes" name="cdesdemes" required></th>
+                        </tr>
+                        <tr>
+                            <th> Tipo de habitación:<br></th>
+                            <th>
+                                <input type="radio" id="hsimple" name="chabitacion" value="Simple">
+                                <label for="hsimple">Simple</label><br>
+                                <input type="radio" id="hdoble" name="chabitacion" value="Doble">
+                                <label for="hdoble">Doble</label><br>
+                                <input type="radio" id="hmatrimonio" name="chabitacion" value="Matrimonio">
+                                <label for="hmatrimonio">Matrimonio</label></th>
+                        </tr>
+                        <tr>
+                            <th><label for="cextras">Seleccione los extras:</label></th>
+                            <th><br>
+                                <input type="checkbox" id="edesayuno" name="edesayuno" value="Desayuno">
+                                <label for="edesayuno"> Desayuno</label><br>
+                                <input type="checkbox" id="ecomida" name="ecomida" value="Comida">
+                                <label for="ecomida"> Comida</label><br>
+                                <input type="checkbox" id="ecena" name="ecena" value="Cena">
+                                <label for="ecena"> Cena</label><br>
+                                <input type="checkbox" id="ecama" name="ecama" value="Cama">
+                                <label for="ecama"> Cama supletoria </label></th>
+                        </tr>
+                        <tr>
+                            <th><label for="ecomentarios">Comentarios:</label>
+                            </th>
+                            <th><textarea rows="5" cols="60" name="description" placeholder="Ponga aqui sus peticiones especiales">
+                                </textarea><br>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th><br></th>
+                            <th><br></th>
+                        </tr>
+                        <tr>
+                            <th><input type="reset"></th>
+                            <th><input type="submit" value="Enviar"></th>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
