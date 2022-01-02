@@ -1,0 +1,24 @@
+<rss version="2.0">
+ <!-- Se define el canal -->
+<channel>
+<title>Actividad 1</title>
+<link>http://www.infoalisal.com</link>
+<description>
+Este es un ejemplo de web basada en la sindicacion de contenidos
+</description>
+<language>es</language>
+ <!-- Se definen los distintos items del canal -->
+<item>
+<title>El tiempo en Ugena.</title>
+<link>https://www.eltiempo.es/ugena.html</link>
+<description>Información sobre la previsión del tiempo en Ugena</description>
+</item>
+<item>
+<title>Item02</title>
+<link>http://www.infoalisal.com/seccion02</link>
+<description>
+Este es un ejemplo02 de web basada en la sindicacion de contenidos
+</description>
+</item>
+</channel>
+</rss>
